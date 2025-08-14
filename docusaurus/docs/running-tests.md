@@ -157,6 +157,7 @@ const localStorageMock = {
 global.localStorage = localStorageMock;
 ```
 
+
 > Note: Keep in mind that if you decide to "eject" before creating `src/setupTests.js`, the resulting `package.json` file won't contain any reference to it, so you should manually create the property `setupFilesAfterEnv` in the configuration for Jest, something like the following:
 
 > ```js
